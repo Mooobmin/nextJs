@@ -17,7 +17,6 @@ async function getMovies(){
 
 export default async function HomePage(){
     const movies = await getMovies();
-    console.log(movies);
     return(
         <div className={styles.container}>
             {movies.map(movie => (
