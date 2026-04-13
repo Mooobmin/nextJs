@@ -7,7 +7,7 @@ import {useRouter} from "next/navigation";
 interface IMovieProps {
     title:string;
     id:string;
-    pooster_path: string;
+    poster_path: string;
 }
 
 export default function Movie({title, id, poster_path}: IMovieProps){
